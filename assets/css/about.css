@@ -1,0 +1,81 @@
+nav {
+    height: 180px;
+}
+
+.nav-wrapper {
+    background-color: #ffffff;
+    color: black;
+}
+
+a {
+    color: black !important;
+}
+
+.brand-logo {
+    color: black !important;
+    font-size: 3.0em !important;
+}
+
+#nav-mobile {
+    background-color: black !important;
+    display: inline-block;
+}
+
+.brand-logo {
+    font-family: 'Italianno', cursive;
+    margin-top: 50px;
+}
+
+.parallax-container {
+    height: 500px;
+}
+
+.about {
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.images {
+    margin-left: 110px;
+    margin-top: 70px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    margin-left: 150px;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.info {
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 150px;
+}
+
+p {
+    text-align: justify;
+}
+
+.page-footer {
+    background-color: white;
+}
+
+.homelinks {
+    text-align: center;
+}
+
+.black-text {
+    font-family: 'Playfair Display', serif;
+}
+
+.footer-copyright {
+    background-color: white;
+    color: black;
+}

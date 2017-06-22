@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sky's Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Spectral|Italianno" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="about.html" class="brand-logo center">Skylar Siagel</a>
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="assets/images/sunsett.jpg" width="350px">
+                        </div>
+                        <!-- <a href="#!user"><img class="circle" src="assets/images/sky4.jpg" width="50px"></a>
+ -->
+                        <a href="#!name"><span class="black-text name">Skylar Siagel</span></a>
+                        <a href="#!email"><span class="black-text email">skylarsiagel@yahoo.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/jupiter.jpg" width="100%"></div>
+    </div>
+    <div class="about">
+        <h1>About</h1>
+        <div class="images">
+            <img src="assets/images/skylondon2.jpg" alt="pic of Sky" width="350px">
+            <img src="assets/images/skyparis2.jpg" alt="pic of Sky" width="350px">
+            <img src="assets/images/skycanyon2.jpg" alt="pic of Sky" width="350px">
+        </div>
+        <br>
+        <h4>Hi, I'm Skylar.</h4>
+        <div class="info">
+            <p>Welcome to my site! I am glad you found me! Let me start by telling you a little bit about myself. I graduated from the University of Central Florida in 2013 with a Bachelors Degree in Psychology and a Minor in Legal Studies. I am currently studying web development at the UCF Coding Bootcamp. I absolutely love being able to design websites and applications from scratch and make them my own. I also love to learn. The field of technology is constantly changing which means that I will constantly be learning new and exciting things. I enjoy being challenged. It is exciting to me when I am finally able to overcome an obstacle that I encounter while working on a website or application. Feel free to explore some of the projects that I have worked on in my portfolio section!</p>
+            <p class="paragraph">In my spare time, I like to go boating. I enjoy wake-surfing and wake-boarding. I enjoy going to the beach. My other hobbies include reading and spending time with friends. Like any girl, I also enjoy shopping. I love to travel. So far, I have been to several countries, inlcuding France, England, and Germany. My dream is to be able to travel to every country!</p>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a class="black-text text-lighten-3" href="#!"><img src="assets/images/linkedin.jpg" width="40px"></a>
+                    <a class="black-text text-lighten-3" href="#!"><img src="assets/images/github.jpg" width="40px"></a>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul class="homelinks">
+                        <a class="black-text text-lighten-3" href="#!">About</a>
+                        <a class="black-text text-lighten-3" href="#!">| Portfolio |</a>
+                        <a class="black-text text-lighten-3" href="#!">Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="black-text text-lighten-4 center">© 2017 Skylar Siagel</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+$(document).ready(function() {
+    // Initialize collapse button
+    $(".button-collapse").sideNav({
+        menuWidth: 350,
+        closeOnClick: true
+    });
+    // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+    //$('.collapsible').collapsible();
+    $('.parallax').parallax();
+});
+</script>
+
+</html>
