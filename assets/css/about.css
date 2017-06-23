@@ -11,6 +11,10 @@ a {
     color: black !important;
 }
 
+i {
+    margin-top: 40px;
+}
+
 .brand-logo {
     color: black !important;
     font-size: 3.0em !important;
@@ -26,8 +30,8 @@ a {
     margin-top: 50px;
 }
 
-.sidebut:hover {
-    background-color: pink;
+.sidebut {
+    font-family: 'Playfair Display', serif;
 }
 
 .parallax-container {
@@ -82,4 +86,108 @@ p {
 .footer-copyright {
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        width: 100% !important;
+        height: 100px;
+    }
+    .brand-logo {
+        margin-top: 20px;
+    }
+    i {
+        margin-top: 20px;
+    }
+    .parallax-container {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .parallax img {
+        min-height: 0 !important;
+    }
+    .images {
+        margin-left: 35px;
+        margin-top: 70px;
+    }
+    img {
+        width: 100px;
+    }
+    .about {
+        background-color: white;
+        width: 100% !important;
+        height: 900px;
+        margin-bottom: 0;
+    }
+    h1 {
+        margin-top: 0;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .info {
+        margin-left: 35px;
+        width: 80%;
+    }
+    .page-footer {
+        width: 100% !important;
+    }
+    .links {
+        width: 30px !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    nav {
+        width: 100% !important;
+        height: 100px;
+    }
+    .brand-logo {
+        margin-top: 20px;
+    }
+    i {
+        margin-top: 20px;
+    }
+    .parallax-container {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .parallax img {
+        min-height: 0 !important;
+    }
+    .images {
+        margin-left: 19px;
+        margin-top: 70px;
+    }
+    img {
+        width: 125px;
+    }
+    .about {
+        background-color: white;
+        width: 100% !important;
+        height: 900px;
+        margin-bottom: 0;
+    }
+    h1 {
+        margin-top: 0;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .info {
+        margin-left: 35px;
+        width: 80%;
+    }
+    .page-footer {
+        width: 100% !important;
+    }
+    .links {
+        width: 30px !important;
+    }
 }
