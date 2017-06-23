@@ -89,6 +89,9 @@ p {
 }
 
 @media screen and (max-width: 375px) {
+    body {
+        background-color: white;
+    }
     nav {
         width: 100% !important;
         height: 100px;
@@ -116,7 +119,7 @@ p {
     .about {
         background-color: white;
         width: 100% !important;
-        height: 900px;
+        height: auto;
         margin-bottom: 0;
     }
     h1 {
@@ -141,6 +144,9 @@ p {
 }
 
 @media screen and (max-width: 414px) {
+    body {
+        background-color: white;
+    }
     nav {
         width: 100% !important;
         height: 100px;
@@ -163,7 +169,7 @@ p {
         margin-top: 70px;
     }
     img {
-        width: 125px;
+        width: 100px;
     }
     .about {
         background-color: white;
