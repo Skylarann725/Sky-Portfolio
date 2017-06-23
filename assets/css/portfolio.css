@@ -26,16 +26,8 @@ a {
     margin-top: 50px;
 }
 
-.sidebut:hover {
-    background-color: pink;
-}
-
 .parallax-container {
     height: 500px;
-}
-
-.about {
-    height: auto;
 }
 
 h1 {
@@ -43,11 +35,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin-top: 90px;
-}
-
-.images {
-    margin-left: 110px;
-    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 h4 {
@@ -57,14 +45,16 @@ h4 {
     margin-right: 100px;
 }
 
-.info {
-    width: 500px;
-    margin-left: 500px;
-    margin-bottom: 150px;
-}
-
 p {
     text-align: justify;
+}
+
+.row {
+    margin-left: 170px !important;
+}
+
+.portfolio {
+    margin-bottom: 100px;
 }
 
 .page-footer {
