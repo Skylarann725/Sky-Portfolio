@@ -171,6 +171,9 @@ p {
     img {
         width: 115px;
     }
+    #sunset {
+        width: 350px;
+    }
     .about {
         background-color: white;
         width: 100% !important;
